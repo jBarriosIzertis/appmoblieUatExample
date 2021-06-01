@@ -25,7 +25,7 @@
     <meta name="salesforce-mask-redirects" content="<?php echo getenv('SALESFORCE_MASK_REDIRECTS');?>">
 	<link href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
-  <meta name="salesforce-server-starturl" content="uat-bergec.cs129.force.com%2FAppMovil%2Fservices%2Foauth2%2Fauthorize%3Fresponse_type%3Dtoken%26client_id%3D3MVG90J3nJBMnqrQGsSVKdT50.aeLCsB3yH0WXCJCiaPZISpX8MUvJTDRZSH6UXY4fYlYxFio6E0uF5JhqKTW%26redirect_uri%3Dhttps%3A%2F%2Fappmobilemule.herokuapp.com%2F%2F_callback.html%26state%3D%2F">
+  <meta name="salesforce-server-starturl" content="https://uat-bergec.cs129.force.com/AppMovil/s/login&startURL=%2Fservices%2Foauth2%2Fauthorize%3Fresponse_type%3Dtoken%26client_id%3D3MVG90J3nJBMnqrQGsSVKdT50.aeLCsB3yH0WXCJCiaPZISpX8MUvJTDRZSH6UXY4fYlYxFio6E0uF5JhqKTW%26redirect_uri%3Dhttps%253A%252F%252Fappmobilemule.herokuapp.com%252F_callback.php%26state%3Dhttps%253A%252F%252Fappmobilemule.herokuapp.com%252F">
 	</head>
   
   <body>
