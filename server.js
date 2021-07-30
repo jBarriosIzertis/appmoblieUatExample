@@ -81,7 +81,7 @@ res.render('index');
 
 app.get('/liveagentchat',(req,res)=>{
 res.render('Liveagent_LACorp',{
-jsPath: __dirname+'/assets/app.js'
+jsPath: __dirname+'./assets/app.js'
 
 });
 });
@@ -91,7 +91,7 @@ jsPath: __dirname+'/assets/app.js'
 
 app.get('/snapincasetest',(req,res)=>{
 res.render('Snap23335950',{
-jsPath: __dirname+'/assets/app.js'
+jsPath: __dirname+'./assets/app.js'
 
 });
 });
