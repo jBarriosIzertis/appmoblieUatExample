@@ -30,6 +30,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded())
 
 console.log(viewPath);
+console.log(process.env);
 // tell express to use templates instead of views. 
 
 app.set('views',viewPath);
