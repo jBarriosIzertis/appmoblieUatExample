@@ -14,7 +14,7 @@ var  consumerSecret = '9906E5D8C17ECD9D10C549BEFD64C7EC8BCD5273CE2052C2DCD94CAB2
 // middleware
 // __dirname - stores path to directory
 
-app.use(express.static(__dirname + './assets'));
+app.use(express.static(__dirname + './pepe'));
 const viewPath = path.join(__dirname,'./templates/views');
 
 app.use(function(req, res, next) {
