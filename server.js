@@ -9,7 +9,7 @@ var bodyParser = require('body-parser')
 
 var app = express();
 const port = process.env.PORT || 3000;
-var  consumerSecret = 'EF99C5BD9FA0D1B66625ABA2A10302960F36EF23EB5E8D0E6936E6FA6B06D5D0';
+var  consumerSecret = '9906E5D8C17ECD9D10C549BEFD64C7EC8BCD5273CE2052C2DCD94CAB2636C4FE';
 
 // middleware
 // __dirname - stores path to directory
