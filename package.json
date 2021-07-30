@@ -12,6 +12,9 @@
     "sfdc": "0.0.1",
     "xml": "^1.0.1"
   },
+  "engines": {
+    "node": "10.18.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
