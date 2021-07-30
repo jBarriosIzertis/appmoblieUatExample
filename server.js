@@ -14,7 +14,7 @@ var  consumerSecret = '9906E5D8C17ECD9D10C549BEFD64C7EC8BCD5273CE2052C2DCD94CAB2
 // middleware
 // __dirname - stores path to directory
 
-app.use(express.static(__dirname + './assets'));
+app.use(express.static(__dirname + '/assets'));
 const viewPath = path.join(__dirname,'./templates/views');
 
 app.use(function(req, res, next) {
@@ -81,7 +81,7 @@ res.render('index');
 
 app.get('/liveagentchat',(req,res)=>{
 res.render('Liveagent_LACorp',{
-jsPath: __dirname+'./assets/app.js'
+jsPath: __dirname+'/assets/app.js'
 
 });
 });
@@ -91,7 +91,7 @@ jsPath: __dirname+'./assets/app.js'
 
 app.get('/snapincasetest',(req,res)=>{
 res.render('Snap23335950',{
-jsPath: __dirname+'./assets/app.js'
+jsPath: __dirname+'/assets/app.js'
 
 });
 });
