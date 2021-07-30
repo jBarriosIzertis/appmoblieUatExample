@@ -20,7 +20,7 @@ const viewPath = path.join(__dirname,'./templates/views');
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  res.header("Content-Security-Policy", "frame-ancestors https://uat-bergec.cs129.force.com");
+  res.header("Content-Security-Policy", "frame-ancestors https://uat-bergec.cs129.force.com/");
   next();
 });
 
