@@ -77,7 +77,7 @@ res.redirect('https://lacorp-dev-ed.my.salesforce.com/apex/ReRouteTwo?accIdParam
 
 
 app.get('',(req,res)=>{
-res.render('index');
+res.render('embeddedlogin');
 });
 
 // Live agent chat page route
